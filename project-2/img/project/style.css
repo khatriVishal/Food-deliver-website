@@ -1,0 +1,225 @@
+/* navigation menu */
+body{
+    width: 100%;
+}
+.navbar{
+  display: flex;  
+  /* top:0px; */
+
+  position : sticky;
+}
+.navbar::before{
+    content: "";
+    position:absolute;
+background-color: black;
+width:103%;
+opacity:0.7;
+height: 93px;
+top: -8px;
+left: -8px;
+}
+#logo{
+    height:59px;
+    margin:8px 27px;
+    position:relative;
+ 
+}
+#navtext{
+    display: flex;
+    list-style: none;
+    /* font-size: 40px; */
+    position:relative;
+    z-index: 2;
+}
+#navtext li a{
+    text-decoration: none;
+    padding: 9px 25px;
+    position:relative;
+    top:12px;
+    color:white;
+    font-family: 'Baloo Bhai';
+    
+    
+}
+#navtext li a:hover{
+    background-color: white;
+    color:rgb(38, 36, 36);
+    border-radius: 20px;
+    /* opacity:0.7px; */
+}
+#home::before{
+    background: url('../bg1.jpg') no-repeat center center/cover;
+    position:absolute;
+    content:"";
+   z-index : -1;
+    width: 105%;
+    height: 45em;
+    opacity:0.89;
+}
+#home{
+    display: flex;
+    color:white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+padding-top: 71px;
+padding-right: 200px;
+padding-left: 200px;
+padding-bottom: 190px;
+
+     /* margin-top: 105px; */
+   
+}
+.h-primary{
+    margin-bottom: 0px;
+    font-size: 3.8rem;
+    font-family: 'Bree Serif', serif;
+}
+#home p{
+    margin:0px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.btn{
+    background-color: rgb(233, 91, 91);
+    border: 1px solid white;
+    height: 44px;
+    width:150px;
+    margin-top: 10px;
+    border-radius: 6px;
+    color: white;
+    font-size: 1.45rem;
+    cursor: pointer;
+}
+#servicescenter{
+    position:relative;
+    /* top: 190px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+   flex-direction: column;
+   z-index: -1;
+}
+#servicescenter h1{
+   font-weight: bold;
+   font-size: 3.8rem;
+
+}
+.servicecont{
+    display: flex;
+    position: relative;
+    left: -64px;
+}
+.cont{
+    border: 2px solid brown;
+    text-align: center;
+    margin-left: 125px;
+    width: 334px;
+  padding-left: 0px;
+  border-radius: 15px;
+  font-size: 1.45rem;
+  text-align: center;
+  background-color: antiquewhite;
+}
+.cont img{
+    height:100px;
+    width:150px;
+    position: relative;
+    top: 25px;
+}
+#clientsection::before{
+    position: absolute;
+    content: "";
+    background: url('../bg.jpg') no-repeat center center/cover;
+    width: 103%;
+    height: 17em;
+    opacity: 0.2;
+    z-index: -1;
+}
+#clientsection h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 3.8rem;
+    font-weight: bold;
+    font-family: 'Bree Serif', serif;
+    margin-right: 10px;
+}
+.clientlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clientlogo img{
+    width: 9em;
+    height: 8em;
+    margin-left: 70px;
+}
+.contact::before{
+    position: absolute;
+    content: "";
+    background: url('../contact.jpg') no-repeat center center/cover;
+    width: 106%;
+    height: 605px;
+    opacity: 0.5;
+    z-index: -1;
+}
+.contact{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 26px;
+    margin-top: -14px;
+  
+}
+.contact h1{
+    font-size: 3.8rem;
+    font-family: 'Bree Serif', serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.inputform{
+    width:30em;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 7px;
+   font-size: 24px;
+   font-family: 'Bree Serif', serif;
+   
+}
+.contact label{
+    font-size: 24px;
+    font-family: 'Bree Serif', serif;
+}
+.inputmessage{
+    width: 54em;
+    height: 16em;
+    border: 2px solid black;
+    /* text-align: center; */
+    border-radius: 7px;
+    
+}
+.contactbtn{
+    position: relative;
+    left: 287px;
+    top: 5px;
+    width: 90px;
+    height: 31px;
+    border: 2px solid black;
+    /* color: red; */
+    background-color: rgb(246, 238, 229);
+    border-radius: 7px;
+   cursor: pointer;
+}
+
+.center{
+   
+    top: 36px;
+    position: relative;
+    color: rgb(7, 3, 3);
+    height: 21px;
+}

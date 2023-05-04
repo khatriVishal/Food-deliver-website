@@ -1,0 +1,30 @@
+
+#servicescenter{
+    position:relative;
+    /* top: 190px; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Bree Serif', serif;
+   z-index: -1;
+}
+.servicecont{
+    display: flex;
+    position: relative;
+    left: -64px;
+    flex-direction: column;
+}
+.cont{
+    width: 536px;
+    margin: 46px;
+    border: 2px solid brown;
+    text-align: center;
+    margin-left: 166px;
+   
+  padding-left: 0px;
+  border-radius: 15px;
+  font-size: 1.45rem;
+  text-align: center;
+  background-color: antiquewhite;
+}
